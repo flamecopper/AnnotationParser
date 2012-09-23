@@ -1,0 +1,46 @@
+E5 = Annotation{annotation_Id=E5, type=Gene_expression}Event{arguements={Theme=Annotation{annotation_Id=T7, type=Protein}Entity{start_offset=599, end_offset=603, term=beta}}}
+E6 = Annotation{annotation_Id=E6, type=Gene_expression}Event{arguements={Theme=Annotation{annotation_Id=T6, type=Protein}Entity{start_offset=584, end_offset=594, term=IL-2Ralpha}}}
+E7 = Annotation{annotation_Id=E7, type=Positive_regulation}Event{arguements={Theme=null, Cause=Annotation{annotation_Id=T9, type=Protein}Entity{start_offset=726, end_offset=730, term=IL-2}}}
+E8 = Annotation{annotation_Id=E8, type=Gene_expression}Event{arguements={Theme=Annotation{annotation_Id=T8, type=Protein}Entity{start_offset=677, end_offset=687, term=IL-2Ralpha}}}
+E9 = Annotation{annotation_Id=E9, type=Transcription}Event{arguements={Theme=Annotation{annotation_Id=T10, type=Protein}Entity{start_offset=772, end_offset=776, term=IL-2}}}
+M2 = Annotation{annotation_Id=M2, type=Speculation}Modification{eventID=E14}
+M1 = Annotation{annotation_Id=M1, type=Negation}Modification{eventID=E9}
+T6 = Annotation{annotation_Id=T6, type=Protein}Entity{start_offset=584, end_offset=594, term=IL-2Ralpha}
+T7 = Annotation{annotation_Id=T7, type=Protein}Entity{start_offset=599, end_offset=603, term=beta}
+T4 = Annotation{annotation_Id=T4, type=Protein}Entity{start_offset=164, end_offset=168, term=IL-2}
+T5 = Annotation{annotation_Id=T5, type=Protein}Entity{start_offset=287, end_offset=320, term=IL-2 receptor (IL-2R) alpha chain}
+E2 = Annotation{annotation_Id=E2, type=Binding}Event{arguements={Theme=Annotation{annotation_Id=T4, type=Protein}Entity{start_offset=164, end_offset=168, term=IL-2}}}
+T29 = Annotation{annotation_Id=T29, type=Binding}Entity{start_offset=1139, end_offset=1146, term=binding}
+E1 = Annotation{annotation_Id=E1, type=Gene_expression}Event{arguements={Theme=Annotation{annotation_Id=T2, type=Protein}Entity{start_offset=101, end_offset=120, term=IL-2 receptor alpha}}}
+T28 = Annotation{annotation_Id=T28, type=Transcription}Entity{start_offset=1050, end_offset=1068, term=abundance of mRNAs}
+E4 = Annotation{annotation_Id=E4, type=Positive_regulation}Event{arguements={Theme=Annotation{annotation_Id=T5, type=Protein}Entity{start_offset=287, end_offset=320, term=IL-2 receptor (IL-2R) alpha chain}}}
+T27 = Annotation{annotation_Id=T27, type=Positive_regulation}Entity{start_offset=1036, end_offset=1045, term=increased}
+T8 = Annotation{annotation_Id=T8, type=Protein}Entity{start_offset=677, end_offset=687, term=IL-2Ralpha}
+E3 = Annotation{annotation_Id=E3, type=Positive_regulation}Event{arguements={Theme=null, Cause=Annotation{annotation_Id=E2, type=Binding}Event{arguements={Theme=Annotation{annotation_Id=T4, type=Protein}Entity{start_offset=164, end_offset=168, term=IL-2}}}}}
+T26 = Annotation{annotation_Id=T26, type=Transcription}Entity{start_offset=765, end_offset=771, term=detect}
+T9 = Annotation{annotation_Id=T9, type=Protein}Entity{start_offset=726, end_offset=730, term=IL-2}
+T25 = Annotation{annotation_Id=T25, type=Gene_expression}Entity{start_offset=688, end_offset=698, term=expression}
+T24 = Annotation{annotation_Id=T24, type=Positive_regulation}Entity{start_offset=665, end_offset=673, term=increase}
+T23 = Annotation{annotation_Id=T23, type=Gene_expression}Entity{start_offset=574, end_offset=583, term=expressed}
+T22 = Annotation{annotation_Id=T22, type=Positive_regulation}Entity{start_offset=269, end_offset=279, term=activation}
+T21 = Annotation{annotation_Id=T21, type=Positive_regulation}Entity{start_offset=204, end_offset=211, term=induces}
+T20 = Annotation{annotation_Id=T20, type=Binding}Entity{start_offset=138, end_offset=145, term=binding}
+* = Annotation{annotation_Id=*, type=Equiv}Equivalence{ann1=T4, ann2=T3}
+T1 = Annotation{annotation_Id=T1, type=Protein}Entity{start_offset=0, end_offset=4, term=IL-2}
+T3 = Annotation{annotation_Id=T3, type=Protein}Entity{start_offset=149, end_offset=162, term=interleukin-2}
+T2 = Annotation{annotation_Id=T2, type=Protein}Entity{start_offset=101, end_offset=120, term=IL-2 receptor alpha}
+T10 = Annotation{annotation_Id=T10, type=Protein}Entity{start_offset=772, end_offset=776, term=IL-2}
+E11 = Annotation{annotation_Id=E11, type=Positive_regulation}Event{arguements={Theme=null, Cause=Annotation{annotation_Id=T13, type=Protein}Entity{start_offset=1031, end_offset=1035, term=IL-2}}}
+T11 = Annotation{annotation_Id=T11, type=Protein}Entity{start_offset=799, end_offset=803, term=IL-2}
+E10 = Annotation{annotation_Id=E10, type=Positive_regulation}Event{arguements={Theme=null, Cause=Annotation{annotation_Id=T13, type=Protein}Entity{start_offset=1031, end_offset=1035, term=IL-2}}}
+T12 = Annotation{annotation_Id=T12, type=Protein}Entity{start_offset=907, end_offset=911, term=IL-2}
+E13 = Annotation{annotation_Id=E13, type=Transcription}Event{arguements={Theme=Annotation{annotation_Id=T15, type=Protein}Entity{start_offset=1113, end_offset=1117, term=KBF1}}}
+T13 = Annotation{annotation_Id=T13, type=Protein}Entity{start_offset=1031, end_offset=1035, term=IL-2}
+E12 = Annotation{annotation_Id=E12, type=Transcription}Event{arguements={Theme=Annotation{annotation_Id=T14, type=Protein}Entity{start_offset=1103, end_offset=1108, term=c-Rel}}}
+T14 = Annotation{annotation_Id=T14, type=Protein}Entity{start_offset=1103, end_offset=1108, term=c-Rel}
+T15 = Annotation{annotation_Id=T15, type=Protein}Entity{start_offset=1113, end_offset=1117, term=KBF1}
+E14 = Annotation{annotation_Id=E14, type=Binding}Event{arguements={Theme=Annotation{annotation_Id=T16, type=Protein}Entity{start_offset=1134, end_offset=1138, term=IL-2}}}
+T16 = Annotation{annotation_Id=T16, type=Protein}Entity{start_offset=1134, end_offset=1138, term=IL-2}
+T17 = Annotation{annotation_Id=T17, type=Protein}Entity{start_offset=1174, end_offset=1178, term=IL-2}
+T18 = Annotation{annotation_Id=T18, type=Protein}Entity{start_offset=1336, end_offset=1340, term=IL-2}
+T19 = Annotation{annotation_Id=T19, type=Gene_expression}Entity{start_offset=121, end_offset=131, term=expression}
